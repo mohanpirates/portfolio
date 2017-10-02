@@ -1,0 +1,213 @@
+body {
+  font-family: 'Lato', sans-serif; }
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif; }
+
+p {
+  font-family: 'Raleway', sans-serif; }
+
+.navbar {
+  font-family: 'Maven Pro', sans-serif; }
+  .navbar .nav-link {
+    margin-right: 30px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 1.0em;
+    background-position: 100% 0;
+    background-size: 200% 200%;
+    color: transparent;
+    -webkit-transition: .3s .1s;
+    -webkit-background-clip: text; }
+  .navbar .nav-link:hover {
+    background-position: 0 0;
+    background-image: linear-gradient(to right, #4776E6, #8E54E9);
+    transition: .4s 0; }
+
+.bg-dark {
+  background-color: black !important;
+  opacity: 0.8; }
+
+.hero {
+  clip-path: polygon(0 0, 1600px 0, 1600px 86%, 0 100%);
+  width: 100%;
+  height: 750px;
+  background: url(../img/hero2.jpeg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+  .hero .text-dark {
+    font-size: 3.5em; }
+  .hero .box {
+    padding-top: 300px; }
+  .hero .box .btn-danger {
+    background-color: #6c77ce;
+    border: none;
+    border-radius: 0;
+    margin-top: 140px; }
+  .hero .typed-cursor {
+    font-weight: bold;
+    color: #6c77ce;
+    opacity: 1;
+    animation: blink 0.7s infinite; }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+#about-section .progress {
+  height: 4px; }
+
+#about-section img.img-fluid {
+  width: 180px;
+  float: left; }
+
+#about-section .clearfix {
+  clear: both; }
+
+#about-section div.brief {
+  padding: 50px 0 0 230px; }
+
+#about-section h1 {
+  font-size: 3.0rem;
+  font-weight: bold; }
+
+#about-section .progress-bar {
+  background: linear-gradient(to right, #4776E6, #8E54E9);
+  transition: width -0.7s ease; }
+
+#service-body {
+  padding-bottom: 80px; }
+  #service-body .p-0 {
+    font-size: 19px;
+    color: black; }
+  #service-body .fa {
+    font-size: 50px;
+    background: linear-gradient(to right, #4776E6, #8E54E9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  #service-body h3 {
+    color: black;
+    font-size: 2.0rem; }
+
+#work-body {
+  background-color: #fff; }
+  #work-body li {
+    font-size: 0.9 em;
+    letter-spacing: 2px;
+    color: #6c77ce; }
+  #work-body a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9em; }
+  #work-body .float {
+    float: right;
+    right: 0; }
+  #work-body h3 {
+    font-size: 2.4rem;
+    font-weight: 800;
+    padding-bottom: 35px;
+    color: #000; }
+  #work-body img {
+    height: 500px;
+    width: 400px; }
+  #work-body .description {
+    padding-top: 100px; }
+  #work-body .right {
+    padding-right: 170px; }
+  #work-body .left {
+    padding-left: 170px; }
+
+#map {
+  width: 100%;
+  height: 100%;
+  min-height: 300px; }
+
+#work-head {
+  padding-top: 150px;
+  background-color: #fff; }
+  #work-head h1 {
+    font-size: 3.0rem;
+    font-weight: bold; }
+
+#service-head h1 {
+  font-size: 3.0rem;
+  font-weight: bold; }
+
+#contact-head {
+  background-color: #fff;
+  padding-top: 180px; }
+
+#contact-body {
+  background-color: #fff; }
+  #contact-body .form-control {
+    border-radius: 0;
+    border-color: #777;
+    padding: 13px; }
+  #contact-body .btn {
+    background-color: #000;
+    border-radius: 0;
+    border: none; }
+
+footer {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  background-color: #fff; }
+  footer span {
+    font-size: 1.1rem;
+    color: black; }
+  footer .social {
+    text-align: right; }
+  footer a {
+    color: black;
+    padding: 20px; }
+  footer .fa {
+    color: black; }
+
+hr {
+  border: 2px solid #6c77ce;
+  max-width: 65px; }
+
+@media (max-width: 767px) {
+  .hero {
+    height: 400px; }
+    .hero .text-light {
+      font-size: 22px; }
+    .hero .box .btn-danger {
+      margin-top: 70px; }
+  .hero .box {
+    padding-top: 161px; }
+  #about-section div.brief {
+    padding: 0 0 0 0; }
+  #about-section img.img-fluid {
+    float: none;
+    width: 150px; }
+  #contact-head {
+    padding-top: 60px; }
+  .float {
+    float: none;
+    position: relative; }
+  #work-head {
+    padding: 0; }
+  #work-body .left {
+    padding: 0; }
+  #work-body img {
+    width: 100%;
+    height: 100%; }
+  #work-body .description {
+    padding-top: 0px;
+    display: inline; }
+  .order-1 {
+    order: 2; }
+  .order-2 {
+    order: 1; }
+  .frm {
+    padding-bottom: 15px; }
+  .copywrite {
+    text-align: center; }
+  footer .social {
+    text-align: center;
+    padding-top: 20px; } }
